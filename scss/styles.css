@@ -8,6 +8,7 @@
 html, body {
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
+  background: #FF704F;
 }
 
 a {
@@ -35,7 +36,7 @@ ul {
 .btn {
   display: inline-block;
   padding: 10px 20px;
-  background: #edbbcc;
+  background: #FFD1B6;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -48,21 +49,113 @@ ul {
   color: red;
 }
 
-.button-2 {
-  width: 100%;
-}
-
 form .form-group {
   margin-bottom: 1em;
+  color: #fff;
 }
-form form .form-control {
+form .form-control {
   display: block;
   width: 100%;
   padding: 1em;
   border-radius: 2px;
 }
-form form .button-1 {
+form .button-1 {
+  display: inline-block;
   width: 100%;
+}
+
+.navbar .logo {
+  float: left;
+  margin-top: 1em;
+}
+.navbar ul {
+  float: right;
+  margin-top: 2em;
+}
+.navbar ul li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+.showcase-container {
+  display: flex;
+  margin-top: 8em;
+}
+.showcase-container h3 {
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: #FFD1B6;
+  margin-bottom: 1em;
+}
+.showcase-container h1 {
+  color: #fff;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+.showcase-container h1 span {
+  color: #edbbcc;
+}
+.showcase-container p {
+  width: 90%;
+  font-size: 1.3em;
+  color: #fff;
+  line-height: 30px;
+  margin-bottom: 2em;
+}
+
+#services h2 {
+  font-size: 3.5em;
+  font-weight: lighter;
+  text-align: center;
+  color: #FFD1B6;
+  margin-bottom: 0.5em;
+}
+#services p {
+  font-size: 1.2em;
+  width: 70%;
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+#services .services-row {
+  display: flex;
+}
+#services .services-row h3 {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #FFD1B6;
+  font-weight: lighter;
+}
+#services .services-row p {
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+#services .services-row img {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#contact h2 {
+  font-size: 3.5em;
+  font-weight: lighter;
+  text-align: center;
+  color: #FFD1B6;
+  margin: 2em;
+}
+#contact form {
+  width: 60%;
+  margin: 0 auto;
+}
+#contact form .button-2 {
+  width: 100%;
+  margin-bottom: 3em;
+  border-radius: 50px;
 }
 
 #footer {

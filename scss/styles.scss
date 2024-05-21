@@ -11,6 +11,7 @@ $font-stack: "Montserrat", sans-serif;
 html, body {
     font-family: $font-stack;
     scroll-behavior: smooth;
+    background: #FF704F;
 }
 
 a {
@@ -38,7 +39,7 @@ ul {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background: #edbbcc;
+    background: #FFD1B6;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -51,26 +52,140 @@ ul {
 color: red;
 }
 
-.button-2 {
-    width: 100%;
-}
+
 
 form {
     .form-group {
         margin-bottom: 1em;
+        color: #fff;
     }
 
-    form .form-control {
+    .form-control {
         display: block;
         width: 100%;
         padding: 1em;
         border-radius: 2px;
     }
 
-    form .button-1 {
+    .button-1 {
+        display: inline-block;
         width: 100%;
     }
 }
+
+.navbar {
+    .logo {
+        float: left;
+        margin-top: 1em;
+    }
+
+    ul {
+        float: right;
+        margin-top: 2em;
+        
+        li {
+            display: inline-block;
+            margin-left: 1em;
+        }
+    }
+    
+}
+
+//showcase
+.showcase-container{
+    display: flex;
+    margin-top: 8em;
+    h3 {
+        font-size: 1.5em;
+        font-weight: lighter;
+        color: #FFD1B6;
+        margin-bottom: 1em;
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 3em;
+        margin-bottom: .5em;
+        span {
+            color: #edbbcc;
+        }
+    }
+
+    p {
+        width: 90%;
+        font-size: 1.3em;
+        color: #fff;
+        line-height: 30px;
+        margin-bottom: 2em;
+    }
+}
+
+//services
+#services {
+    h2 {
+        font-size: 3.5em;
+        font-weight: lighter;
+        text-align: center;
+        color: #FFD1B6;
+        margin-bottom: .5em;
+    }
+
+    p{
+        font-size: 1.2em;
+        width: 70%;
+        text-align: center;
+        color: #fff;
+        margin: 0 auto;
+    }
+
+    .services-row {
+        display: flex;
+
+        h3 {
+            text-align: center;
+            margin-bottom: 1em;
+            color: #FFD1B6;
+            font-weight: lighter;
+        }
+
+        p {
+            width: 80%;
+            text-align: center;
+            display: block;
+            margin: 0 auto;
+         font-size: 1em;
+         line-height: 1.5em;
+        }
+    
+        img {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+        }
+    }
+}
+
+//contact
+#contact {
+    h2 {
+        font-size: 3.5em;
+        font-weight: lighter;
+        text-align: center;
+        color: #FFD1B6;
+        margin: 2em;
+    }
+    form {
+        width: 60%;
+        margin: 0 auto;
+        .button-2 {
+            width: 100%;
+            margin-bottom: 3em;
+            border-radius: 50px;
+        }
+    }
+}
+
 
 //footer
 #footer {
